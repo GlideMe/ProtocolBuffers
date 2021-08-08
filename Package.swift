@@ -3,9 +3,9 @@
 import PackageDescription
 
 let package = Package(
-    name: "ProtocolBuffer",
+    name: "ProtocolBuffers",
     products: [
-        .library(name: "ProtocolBuffer", targets: ["ProtocolBuffer"]),
+        .library(name: "ProtocolBuffers", targets: ["ProtocolBuffers"]),
     ],
     targets: [
         .binaryTarget(
