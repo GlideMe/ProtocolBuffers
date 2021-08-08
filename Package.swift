@@ -9,16 +9,10 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(
-            name: "ProtocolBuffer",
-            url: "https://glide-ios-jenkins-builds-02.s3.amazonaws.com/GTSDK/ProtocolBuffers/ProtocolBuffer-2.15.1.zip",
-            checksum: "a7ab1e48e606d3876c6e05ce7f486d9af0992430d104733fe91bffa365eb9b8b"
-        ),
-//        .target(
-//            name: "ProtocolBufferCondition",
-//            dependencies: [
-//                .target(name: "ProtocolBuffer", condition: .when(platforms: [.iOS])),
-//            ]
-//        )
+            name: "ProtocolBuffers",
+            url: "https://glide-ios-jenkins-builds-02.s3.amazonaws.com/GTSDK/ProtocolBuffers/ProtocolBuffers.xcframework.zip",
+            checksum: "e0e1ee8dbc5e18d7895728600db3fd5674e9324dfa20c8bc0deb934fd5eacbd9"
+        )
     ]
 )
 
