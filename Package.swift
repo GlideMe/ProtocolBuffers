@@ -10,8 +10,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "ProtocolBuffers",
-            url: "https://glide-ios-jenkins-builds-02.s3.amazonaws.com/GTSDK/ProtocolBuffers/ProtocolBuffers.xcframework.zip",
-            checksum: "e0e1ee8dbc5e18d7895728600db3fd5674e9324dfa20c8bc0deb934fd5eacbd9"
+            url: "https://glide-ios-jenkins-builds-02.s3.amazonaws.com/GTSDK/ProtocolBuffers/ProtocolBuffers-0.0.1.zip",
+            checksum: "8869509b7f26e7765f3480efb2b0027660101d43cb6b8fd69f8bbb32280f0e23"
         )
     ]
 )
